@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Piyush Photo Studio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Piyush Photo</a>
+      
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-header" style="height: 30vh;">
+    <h1 class="page-title text-center">Contact Us</h1>
+  </section>
+
+  <section class="section container">
+    <div class="contact-wrapper">
+      <div class="contact-details-side">
+        <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">Let's Talk About Your Project!</h2>
+        <p style="margin-bottom: 3rem;">Ready to create an amazing photo story with us? Fill out the form or reach us directly.</p>
+        
+        <div class="contact-info-block">
+          <h3>Call or WhatsApp Us</h3>
+          <a href="tel:+917276015024">+91 7276015024</a>
+        </div>
+        
+        <div class="contact-info-block">
+          <h3>Studio Representative</h3>
+          <p>Amol Arsud</p>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Location</h3>
+          <p>Pimpalwadi, Maharashtra</p>
+        </div>
+        
+        <div class="map-container" style="margin-top: 2rem;">
+          <iframe src="https://maps.google.com/maps?q=19.529322557224987,75.38292232799732&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0; filter: grayscale(100%) contrast(120%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="contact-form-side">
+        <form id="contact-form" style="background-color: var(--color-black-light); padding: 30px; border: 1px solid rgba(212,175,55,0.2);">
+          
+          <div class="form-group">
+            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          
+          <div class="form-group">
+            <input type="tel" id="phone" class="form-control" placeholder="Phone Number" required>
+          </div>
+          
+          <div class="form-group">
+            <select id="service-type" class="form-control" required style="appearance: none;">
+              <option value="" disabled selected>Select Service Type</option>
+              <option value="wedding">Wedding Photography</option>
+              <option value="prewedding">Pre-Wedding Shoot</option>
+              <option value="baby">Baby & Maternity</option>
+              <option value="event">Event Photography</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <input type="date" id="date" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <textarea id="message" class="form-control" placeholder="Tell us more about your event..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-logo">Piyush Photo</span>
+          <p>Capturing life's most precious moments with elegance and creativity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Information</h4>
+          <ul>
+            <li>Pimpalwadi, Maharashtra</li>
+            <li>Phone: +91 7276015024</li>
+            <li>Owner: Amol Arsud</li>
+            <li>Status: Open for Bookings</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Piyush Photo Studio. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fab-container">
+    <a href="https://wa.me/917276015024" target="_blank" class="fab fab-whatsapp" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766 0 1.018.265 2.013.769 2.89L6.16 17.846l3.093-.811c.854.464 1.83.708 2.784.708h.001c3.181 0 5.767-2.586 5.767-5.766-.001-3.18-2.587-5.767-5.766-5.767m0 10.43c-.859 0-1.702-.23-2.436-.665l-.174-.103-1.808.474.482-1.764-.113-.18c-.477-.756-.73-1.63-.73-2.527 0-2.618 2.132-4.749 4.757-4.749 2.625 0 4.757 2.131 4.757 4.749s-2.132 4.749-4.757 4.749m2.607-3.564c-.143-.072-.845-.417-.976-.465-.131-.048-.227-.072-.323.071-.096.143-.367.465-.45.56-.084.095-.168.107-.311.036-.143-.072-.603-.223-1.149-.706-.425-.376-.713-.84-.796-.984-.084-.144-.009-.221.062-.293.064-.064.143-.166.215-.248.072-.083.096-.143.143-.238.048-.096.024-.18-.012-.252-.036-.072-.323-.777-.442-1.065-.116-.282-.235-.244-.323-.248-.084-.004-.18-.005-.276-.005-.096 0-.252.036-.384.18s-.504.492-.504 1.199.516 1.389.588 1.485c.072.096 1.012 1.545 2.454 2.166.343.148.611.236.82.302.345.109.658.094.908.057.283-.042.845-.345.964-.678.12-.333.12-.619.084-.678-.036-.059-.132-.095-.276-.167"/></svg>
+    </a>
+    <a href="tel:+917276015024" class="fab fab-call" aria-label="Call">
+      <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+    </a>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
